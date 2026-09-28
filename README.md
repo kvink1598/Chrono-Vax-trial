@@ -25,4 +25,24 @@ vaccine-induced immune responses.
 # Scripts:
 There are .. scripts in the 'Scripts' folder:
  - Load packages
-    This script shows which packages need to be installed and loaded for the analysis
+    This script shows which packages need to be installed and loaded for the analysis  
+ - Permutation test 
+    The primary analysis
+ - GAM(M) analysis - vaccination time group
+    GAM(M) analyses comparing the ranomdization groups
+ - GAM(M) analysis - vaccination time 
+    GAM(M) analyses treating time as a continuous variable
+ - GAM(M) analysis - vaccination time relative to MSFsc
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
