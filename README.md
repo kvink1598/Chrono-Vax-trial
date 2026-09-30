@@ -23,9 +23,9 @@ vaccine-induced immune responses.
 
 
 # Scripts:
-There are .. scripts in the 'Scripts' folder:
+There are 5 scripts in the 'Scripts' folder:
  - Load packages
-    This script shows which packages need to be installed and loaded for the analysis  
+    This script shows which packages need to be installed and loaded for the analyses  
  - Permutation test 
     The primary analysis
  - GAM(M) analysis - group comparison
@@ -41,11 +41,12 @@ There are .. scripts in the 'Scripts' folder:
     
 
    
- 
+# Sensitivity analyses 
  
 The scripts can be reused to perform the sensitivity analyses in which different
 values for titers below the lower limit of detection (<10) were used. 
  
+
  
  
  
