@@ -28,15 +28,23 @@ There are .. scripts in the 'Scripts' folder:
     This script shows which packages need to be installed and loaded for the analysis  
  - Permutation test 
     The primary analysis
- - GAM(M) analysis - vaccination time group
-    GAM(M) analyses comparing the ranomdization groups
+ - GAM(M) analysis - group comparison
+    GAM(M) analyses comparing the randomization groups
  - GAM(M) analysis - vaccination time 
     GAM(M) analyses treating time as a continuous variable
- - GAM(M) analysis - vaccination time relative to MSFsc
+ - GAMM analysis - vaccination time relative to MSFsc
+    GAMM analyses comparing immune responses over vaccination time relative
+    to the sleep-corrected midpoint of sleep (MSFsc), which is another way of
+    of treating vaccination timing. This maps everyone on the same scale, relative
+    to their own MSFsc and therefore takes variation in chronotype between 
+    participants into account.
+    
+
    
  
  
- 
+The scripts can be reused to perform the sensitivity analyses in which different
+values for titers below the lower limit of detection (<10) were used. 
  
  
  
