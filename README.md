@@ -13,17 +13,17 @@ Participants received influenza vaccination at a randomized time:
 
 Primary analysis:
 
-1. Comparing randomization groups using a permutation-based test (primary analysis)
-2. Comparing vaccine-induced immune responses from 09:00 to 17:00 using GAM(M)s
+- Comparing randomization groups using a permutation-based test (primary analysis)
+- Comparing vaccine-induced immune responses from 09:00 to 17:00 using GAM(M)s
 
 Secondary analysis:
 
-2. Comparing randomization groups using generalized additive (mixed-effect) models
+- Comparing randomization groups using generalized additive (mixed-effect) models
     (GAM(M)) 
     
 Exploratory analysis:
 
-4. Assess the relationship between vaccine-induced immune responses and 
+- Assess the relationship between vaccine-induced immune responses and 
     an individual's internal time (circadian phase).
 
 
