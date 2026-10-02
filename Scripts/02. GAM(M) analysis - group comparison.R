@@ -230,4 +230,3 @@ qqnorm(resid(Tcell_GAMM)); qqline(resid(Tcell_GAMM))
 plot(fitted(Tcell_GAMM), resid(Tcell_GAMM), main="Residuals vs fitted")
 
 
-
