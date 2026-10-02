@@ -9,17 +9,28 @@ Participants received influenza vaccination at a randomized time:
 - 11:40-14:20
 - 14:20-17:00
 
-The statistical analysis consists of two parts:
-1. the primary analysis: permutation-based test
-2. exploratory analysis: GAM(M) analysis
+# Statistical analysis
+
+Primary analysis:
+1. Comparing randomization groups using a permutation-based test (primary analysis)
+2. Comparing vaccine-induced immune responses from 09:00 to 17:00 using GAM(M)s
+
+Secondary analysis:
+2. Comparing randomization groups using generalized additive (mixed-effect) models
+    (GAM(M)) 
+    
+Exploratory analysis:
+4. Assess the relationship between vaccine-induced immune responses and 
+    an individual's internal time (circadian phase).
+
 
 The primary analysis was conducted in accordance with the trial protocol.
 However, upon inspection of the data, significant variation in baseline antibody
 titers was observed. Those vaccinated in the late afternoon had higher baseline
 titers, which affects the fold change. As the permutation test is unable to
 adjust for baseline titers, a generalized additive (mixed-effects) model (GAM(M))
-was used to get unbiased estimates of the effect of vaccination timing on
-vaccine-induced immune responses.
+was used to reduce bias in the comparison of immune responses between the 
+randomization groups.
 
 
 # Scripts:
